@@ -1,25 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
 
 h1{
-    color :#48D1CC;
-    font-family: 'Lobster Two', cursive;
+    color : #CE93D8;
+    font-family: 'Dancing Script', cursive;
     font-size: 5em;
+    text-align: center;
+
 
 }
 h3,h2{
-    color : #FFB6C1;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 3em;
-    text-align: center;
+    color : white  ;
+    font-family: 'Questrial', sans-serif;
+    font-size: 2em;
+   
 }
 p{
-    color:white;
-    font-family: 'Nanum Gothic', sans-serif;
-    text-align: center;
-    font-size: 1em;
+    color: white  ;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5em;
 
 }
-body{
-    background-color: black
+ body{
+    /*background-color: white;  */
+    background-image: url(images/azul.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+
+#aboutme{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: auto
+
+}
+#me{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 25%;
+}
+#photo{
+    width: 45%;
+    height: 45%;
+    border-radius: 15%;
+    border-left: 25%;
+    position: relative;
+    float: left;
+    left: 150px;
+}
+#github{
+    margin-left: 300px;
+    margin-bottom: 10px;
+
+}
+.tools{
+    display: inline-block;
+    margin:10px;
 }
