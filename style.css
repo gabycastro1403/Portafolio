@@ -8,8 +8,6 @@ h1{
     font-family: 'Dancing Script', cursive;
     font-size: 5em;
     text-align: center;
-
-
 }
 h3,h2{
     color : white  ;
@@ -17,6 +15,28 @@ h3,h2{
     font-size: 2em;
    
 }
+h4{
+    color : #1F618D  ;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    text-align: center;
+
+}
+h5{
+    color: #1F618D     ;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+h6{
+    color:#CE93D8;
+    font-family: 'Questrial', sans-serif;
+    font-size: 2em;
+    margin: 0%;
+    padding: 0%;
+}
+
 p{
     color: white  ;
     font-family: 'Questrial', sans-serif;
@@ -30,6 +50,26 @@ p{
     background-size: cover;
     background-repeat: no-repeat; 
 
+}
+footer{
+    border-top: #CE93D8 1px;
+    width: 100%;
+    background-color: #B3E5FC;
+    opacity: 0.5;
+}
+article{
+    display: inline-block;
+
+}
+article p{
+    text-align: center;
+    margin-left: 76%;
+    margin-top: 0%;
+}
+.name-tools{
+    text-align: center;
+    margin-left: 9%;
+    margin-top: 0%;
 }
 
 #aboutme{
@@ -53,6 +93,7 @@ p{
     position: relative;
     float: left;
     left: 150px;
+    margin-bottom: 100px
 }
 #github{
     margin-left: 300px;
@@ -63,3 +104,50 @@ p{
     display: inline-block;
     margin:10px;
 }
+#content-footer{
+    margin-left: 500px;
+   
+}
+#cuisine-divine{
+    background-color: white;
+    width: 350px;
+    height: auto;
+    border-radius: 5%;
+    padding: 10px;
+}
+#card-cuisine:hover{
+    opacity: 0.6;
+   
+}
+
+#cuisine-divine p{
+    color: black;
+    font-size: 0.9em;
+
+}
+#cuisine-divine h5{
+    margin: 2%;
+}
+#card-cuisine{
+    width: 350px;
+    border-radius: 5%;
+
+}
+.button-cards{
+    display: inline-block;
+    border: solid 1px #AB47BC  ;
+    color:#6A1B9A  ;
+    width: 130px;
+    height: 30px;
+    margin: 2%;
+    border-radius: 9%;
+    font-size: 0.9em;
+}
+.button-cards:hover{
+    background-color: #AB47BC;
+    color:white;
+    font-size: 1em;
+    width:140px;
+}
+
+
