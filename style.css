@@ -9,7 +9,7 @@ h1{
     font-family: 'Dancing Script', cursive;
     font-size: 5em;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 2%;
 }
 h3,h2{
     color : #76D7C4    ;
@@ -81,14 +81,15 @@ article p{
     position: relative;
     float: right;
     width: 50%;
-    height: auto
-
+    height: auto;
+    right: 7%;
 }
 #me{
     position: relative;
     float: right;
     width: 50%;
     height: 25%;
+    left: 6%;
 }
 #photo{
     width: 45%;
@@ -136,6 +137,7 @@ article p{
 }
 #cuisine-divine h5{
     margin: 2%;
+    color:#6C3483;
 }
 #card-cuisine{
     width: 350px;
@@ -158,5 +160,8 @@ article p{
     font-size: 1em;
     width:140px;
 }
-
+#title{
+    margin-top: 15%;
+    margin-left: 35%
+}
 
