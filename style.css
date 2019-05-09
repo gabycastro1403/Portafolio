@@ -55,6 +55,9 @@ p{
     margin: 0%; 
 
 }
+hr{
+    width:80%;
+}
 footer{
     border-top: #CE93D8 1px;
     width: 100%;
