@@ -78,6 +78,17 @@ article p{
     margin-left: 9%;
     margin-top: 0%;
 }
+.content-proyect-title p{
+    color : #6C3483;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+.github p{
+    margin-left: 70%
+}
 
 #aboutme{
     position: relative;
@@ -138,7 +149,7 @@ article p{
 .cursos__columna p{
     margin: 2%;
     color:white;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top: 10%;
 }
 
@@ -149,7 +160,7 @@ article p{
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
     width: 20%;
-    height: 95%;
+    height: 100%;
     padding: 5px;
     border-radius: 20px;
   
@@ -191,13 +202,26 @@ article p{
     border-radius: 10px;
     width: 40%;
     height: 40px;
-    margin-top: 30%;
+    margin-top: 10%;
     margin-left: 5%;
 }
 .button-card:hover{
     background:black; 
     width: 45%;
     font-size: 1em
+}
+.tools{
+    display:inline-block;
+}
+.logo{
+    width: 10%;
+    margin-right: 2%;
+    opacity:0.5;
+    border-radius: 20px;
+}
+.nav-gaby{
+    background: rgba(253, 242, 233, 0.7);
+
 }
 /* #A81184 */
 

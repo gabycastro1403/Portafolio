@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/icons8-libélula-30.png">
     <title>Gabriela Castro</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top nav-gaby">
+        <img class="logo"src="images/logo-portafolio.png"><a class="navbar-brand" >Gabriela Castro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item ">
+            <a class="nav-link" href="#title">Acerca de mí </a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#Proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
     <div>
         <article id="title">
             <h1>Acerca de mí</h1> 
@@ -27,23 +48,11 @@
     </section>
 </div>
     
-    <div>
-        <h1>Proyectos</h1>
+    <div id="Proyectos" class="content-proyect-title">
+        <p>Proyectos</p>
         <hr>
-        <!-- <div class="card mb-3" id="cuisine-divine">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                 <img src="./images/redSocial3.png" class="card-img" alt="cuisine"> 
-              </div>
-              <div class="col-md-8">
-                <div class="card-body content-cuisine" >
-                  <h5 class="card-title">Cuisine Divine</h5>
-                  <p class="card-text"><b>Cuisine Divine es una red social enfocada en los estudiantes de la alta cocina francesa.</b></p>
-                  <p class="card-text"></p>
-                </div>
-              </div>
-            </div>
-          </div> -->
+    </div>
+       
           <div class="cursos__columna">
             <img src="./images/Red-social.png" alt="" class="cursos__img">
             <div class="cursos__descripcion">
@@ -127,45 +136,45 @@
                             <img class="tolls-card" src="images/javascriptNew.png">
                             <img class="tolls-card" src="images/GithubNew.png">
                         </div>
-    </div>
+   
 
-    <section>
+    <section >
         
         <div id="content-tools">
             <h1>Herramientas</h1>
             <hr>
-        <article>
+        <div class="tools github">
             <img title ="Github"id="github" src="images/GithubNew.png">
             <p>Github</p>
-        </article>
-        <article>
+        </div>
+        <div class="tools">
             <img class="tools"  src="images/javascriptNew.png">
             <p  class ="name-tools">JavaScript</p>
-        </article>
-        <article>
+        </div>
+        <div class="tools">
             <img class="tools"  src="images/htmlNew.png">
             <p  class ="name-tools">HTML</p>
-        </article>
-        <article>
+        </div>
+        <div class="tools">
             <img class="tools"  src="images/cssNew.png">
             <p  class ="name-tools">CSS</p>
-        </article>
-        <article>
+        </div>
+        <div class="tools">
             <img class="tools"  src= "images/firebaseNew.png">
             <p  class ="name-tools">Firebase</p>
-        </article>
-        <article>
+        </div>
+        <div class="tools">
             <img class ="tools" src="images/nodejsNew.png">
             <p  class ="name-tools">Node.js</p>
-        </article>
-        <article>
+        </div>
+        <div class="tools">
              <img class ="tools" src="images/angular-card.png">
             <p  class ="name-tools">Angular</p>
-            </article>
+        </div>
         </div>
      </section>
 
-    <footer>
+    <footer id="contacto">
         <h4>Gabriela Castro</h4>
         <hr>
         <h5>¡Trabajemos juntos! Contactame </h5>
