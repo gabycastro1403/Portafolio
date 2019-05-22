@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 @import url('https://fonts.googleapis.com/css?family=Economica&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
 
 h1{
     color : #6C3483;
-    font-family:  'Dancing Script', cursive;
-    font-size: 5em;
+    font-family:'Handlee', cursive;
+    font-size: 3em;
     text-align: center;
     margin-top: 2%;
     
@@ -19,7 +20,7 @@ h3,h2{
 }
 h4{
     color : #FDEDEC  ;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Handlee', cursive;
     font-size: 2.5em;
     text-align: center;
     margin: 0%;
@@ -85,14 +86,14 @@ article p{
 }
 .content-proyect-title p{
     color : #6C3483;
-    font-family: 'Dancing Script', cursive;
-    font-size: 5em;
+    font-family: 'Handlee', cursive;
+    font-size: 3em;
     text-align: center;
     margin-top: 2%;
     margin-left: 20%;
 }
 .github p{
-    margin-left: 70%
+    margin-left: 25%
 }
 
 #aboutme{
@@ -121,7 +122,7 @@ article p{
     margin-top: 5%;
 }
 #github{
-    margin-left: 190px;
+    /* margin-left: 190px; */
     margin-bottom: 10px;
 
 }
@@ -136,7 +137,7 @@ article p{
 }
 
 #title{
-    margin-top: 15%;
+    margin-top: 7%;
     margin-right: -28%;
 }
 .cursos__columna {
@@ -232,6 +233,45 @@ article p{
 #aboutme{
     margin-top: 4%
 }
+.row {
+    min-height: 100vh;
+    display: block;
+    padding-top: 5em;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+}
+.paralax-item {
+    max-width: 980px;
+    margin: 0 auto;
+    background: #ffffffa8;
+    padding: 1em;
+    height: 540px;
+    box-shadow: 0px 0px 5px #4a4a4a;
+  }
+  .item-1 {
+    background-image: url('images/tulipanes3.jpg');  
+    
+   }
+   .bienvenida h1{
+    color : #A81184;
+    font-family:'Handlee', cursive;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 15%;
+   }
+   .bienvenida p{
+    color : #31AFB4;
+    font-family:'Handlee', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1%;
+    opacity: 0.7;
+   }
+   
+   /*.overflow:hover{
+    transform: rotateY(0deg);
+   } */
 /* rosa logos #A81184 */
 /*azul fuerte #115571*/
 /*azul claro #31AFB4*/
