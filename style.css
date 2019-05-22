@@ -1,17 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Economica&display=swap');
 
 h1{
     color : #6C3483;
-    font-family: 'Dancing Script', cursive;
+    font-family:  'Dancing Script', cursive;
     font-size: 5em;
     text-align: center;
     margin-top: 2%;
+    
 }
 h3,h2{
-    color : #76D7C4    ;
-    font-family: 'Questrial', sans-serif;
+    color :#115571  ;
+    font-family: 'Economica', sans-serif;
     font-size: 2em;
    
 }
@@ -26,22 +28,22 @@ h4{
 }
 h5{
     color: #FFEBEE;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Economica', sans-serif;
     font-size: 1.5em;
     text-align: center;
 
 }
 h6{
     color:#AD147C;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Economica', sans-serif;
     font-size: 2em;
     margin: 0%;
     padding: 0%;
 }
 
 p{
-    color: #76D7C4    ;
-    font-family: 'Questrial', sans-serif;
+    color: #115571   ;
+    font-family: 'Economica', sans-serif;
     font-size: 1.5em;
 
 }
@@ -77,6 +79,9 @@ article p{
     text-align: center;
     margin-left: 9%;
     margin-top: 0%;
+}
+.title{
+    margin-right: -40%
 }
 .content-proyect-title p{
     color : #6C3483;
@@ -132,7 +137,7 @@ article p{
 
 #title{
     margin-top: 15%;
-    margin-left: 35%;
+    margin-right: -28%;
 }
 .cursos__columna {
     position: relative;
@@ -149,11 +154,12 @@ article p{
 .cursos__columna p{
     margin: 2%;
     color:white;
-    font-size: 0.8em;
+    font-size: 1.1em;
     margin-top: 10%;
 }
 
 .cursos__descripcion {
+    font-family: 'Economica', sans-serif;
     position: absolute;
     top: 0;
     left: 0;
@@ -197,7 +203,7 @@ article p{
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     font-size: 0.9em;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Economica', sans-serif;
     border: solid 1px #fff;
     border-radius: 10px;
     width: 40%;
@@ -216,12 +222,17 @@ article p{
 .logo{
     width: 10%;
     margin-right: 2%;
-    opacity:0.5;
-    border-radius: 20px;
+    opacity:0.7;
+    border-radius: 15px;
 }
 .nav-gaby{
     background: rgba(253, 242, 233, 0.7);
 
 }
-/* #A81184 */
+#aboutme{
+    margin-top: 4%
+}
+/* rosa logos #A81184 */
+/*azul fuerte #115571*/
+/*azul claro #31AFB4*/
 
