@@ -502,4 +502,10 @@ text {
     #content-footer{
         margin-left: 22%;
     }
+    .navbar-toggler{
+        margin-right: 23%
+    }
+    a{
+        font-size: 1em;
+    }
 }
