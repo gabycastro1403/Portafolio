@@ -21,7 +21,7 @@ h3,h2{
    
 }
 h4{
-    color : #FDEDEC  ;
+    color : #AD147C  ;
     font-family: 'Handlee', cursive;
     font-size: 2.5em;
     text-align: center;
@@ -34,7 +34,8 @@ h5{
     font-family: 'Economica', sans-serif;
     font-size: 1.5em;
     text-align: center;
-
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 h6{
     color:#AD147C;
@@ -102,7 +103,7 @@ article p{
     font-family: 'Handlee', cursive;
     font-size: 3em;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 10%;
     margin-left: 20%;
 }
 .github p{
@@ -206,6 +207,7 @@ article p{
     float: right;
     width: 50%;
     margin-top: -20%;
+    margin-right: -3%
 }
 .tolls-proyect h1{
     font-size: 2em;
@@ -214,7 +216,7 @@ article p{
     margin-top: -10%;
 }
 .button-card{
-    background-color: #FFEBEE;;
+    background-color: #FFEBEE;
     color: #A81184;
     font-size: 1.3em;
     font-family: 'Economica', sans-serif;
@@ -328,6 +330,68 @@ text {
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
 }
+.desarrollo{
+    width: 8%;
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: -2%;
+}
+.desarrollo p{
+    margin-left: 30%;
+    display: inline-block;
+    margin-top: 4%;
+}
+#computadora{
+    position: relative;
+    float: right;
+    margin-left: -50%;
+}
+.computadora p{
+    margin-left: 38%;
+    display: inline-block;
+    margin-top: 4%;
+}
+#desarrollo:hover{
+    background: rgba( 255, 235, 238, 0.6);
+    border-radius: 40%;
+}
+#computadora:hover{
+    background: rgba( 255, 235, 238,0.6);
+    border-radius: 40%;
+}
+#skills{
+    position: relative;
+    float:left;
+    width: 60%;
+    margin-left: 38%;
+    margin-top: -23%
+}
+.hidde-skills{
+    display: none;
+}
+.content-desarrollo{
+    position: relative;
+    float: left;
+    width: 60%;
+    margin-left:40%;
+    margin-top: -12%; 
+}
+.tolls-desarollo{
+    width: 10%;
+}
+.hidde-tolls{
+    display: none; 
+}
+.container{
+    margin-right: -6%;
+}
+.container2{
+    margin-left: 13%
+}
+ 
+/* .fixed{
+    position: fixed;
+} */
 /* rosa logos #A81184 */
 /*azul fuerte #115571*/
 /*azul claro #31AFB4*/
