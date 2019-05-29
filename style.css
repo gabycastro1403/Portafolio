@@ -354,10 +354,12 @@ text {
 #desarrollo:hover{
     background: rgba( 255, 235, 238, 0.6);
     border-radius: 40%;
+    cursor: pointer;
 }
 #computadora:hover{
     background: rgba( 255, 235, 238,0.6);
     border-radius: 40%;
+    cursor: pointer
 }
 #skills{
     position: relative;
