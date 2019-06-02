@@ -5,7 +5,9 @@
 @import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Life+Savers');
 
-
+.all-container{
+    width: 145vh;
+}
 h1{
     color : #ae5d73;
     font-family:'Handlee', cursive;
@@ -15,7 +17,7 @@ h1{
     
 }
 h3,h2{
-    color :#115571  ;
+    color :#4D5075  ;
     font-family: 'Economica', sans-serif;
     font-size: 2em;
    
@@ -30,7 +32,7 @@ h4{
 
 }
 h5{
-    color: #115571;
+    color: #4D5075;
     font-family: 'Economica', sans-serif;
     font-size: 1.5em;
     text-align: center;
@@ -46,7 +48,7 @@ h6{
 }
 
 p{
-    color: #115571   ;
+    color: #4D5075   ;
     font-family: 'Economica', sans-serif;
     font-size: 1.5em;
 
@@ -55,14 +57,14 @@ body{
     /* background-color: #FBF6F6; */
     /* background-color: #FCF8F5; */
     background-color:#fbfbf3;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100vh
+    
 }
 a{
     font-family: 'Economica', sans-serif;
     font-size: 1.3em;
 }
+
 #navbarNav a:hover{
     background-color: rgba(173, 20, 124, 0.3);  
     color:white;
@@ -74,7 +76,7 @@ hr{
 }
 footer{
     border-top: #CE93D8 1px;
-    width: 100%;
+    width: 185vh;
     background: rgba(171, 96, 112,0.5);
     height: 300px;
 }
@@ -115,7 +117,7 @@ article p{
     float: right;
     width: 50%;
     height: auto;
-    right: 7%;
+    left: -2%;
 }
 #me{
     position: relative;
@@ -131,7 +133,7 @@ article p{
     border-left: 25%;
     position: relative;
     float: left;
-    left: 150px;
+    left: 34%;
     margin-bottom: 10%;
     margin-top: 5%;
 }
@@ -158,18 +160,19 @@ article p{
     position: relative;
     margin-bottom: 30px;
     margin-left: 10%;
+    width: 100%;
    
 }
 .cursos__columna h2{
     margin: 2%;
     color:white;
     margin-top: 10%;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 .cursos__columna p{
     margin: 2%;
     color:white;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-top: 10%;
 }
 
@@ -265,6 +268,7 @@ article p{
   .item-1 {
     background-image: url('./images/flores-paloRosa.png'); 
     background-size: cover;
+    width: 187vh;
    
    }
    
@@ -300,7 +304,7 @@ text {
     fill: none;
     stroke:white ;
     stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
+    stroke-width: 0.02em;
     stroke-dashoffset: 0%;
     animation: stroke-offset 5.5s infinite linear;
 }
@@ -330,11 +334,12 @@ text {
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
 }
+
 .desarrollo{
     width: 8%;
     display: inline-block;
     margin-left: 25%;
-    margin-top: -2%;
+    margin-top: 9%;
 }
 .desarrollo p{
     margin-left: 30%;
@@ -365,8 +370,8 @@ text {
     position: relative;
     float:left;
     width: 60%;
-    margin-left: 38%;
-    margin-top: -23%
+    margin-left: 40%;
+    margin-top: -29%
 }
 .hidde-skills{
     display: none;
@@ -390,7 +395,23 @@ text {
 .container2{
     margin-left: 13%
 }
- 
+#button-download{
+    background-color: #FFEBEE;
+    color: #A81184;
+    font-size: 1.3em;
+    font-family: 'Economica', sans-serif;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    width: 15%;
+    height: 48px;
+    top: 165%;
+    left: 45%;
+    position: absolute;
+}
+#button-download:hover{
+    border:solid 2.5px #A81184;
+    font-size: 1.4em;
+}
 /* .fixed{
     position: fixed;
 } */
@@ -401,14 +422,15 @@ text {
 
 @media(min-width: 250px)and (max-width:500px){
     svg{
-        font-size: 7em;
+        font-size: 8em;
+        margin-top: 65%;
     }
     .bienvenida p{
-        font-size: 1.5em;
-        margin-top: -55%;
+        font-size: 2em;
+        margin-top: -12%;
     }
     .row{
-        min-height: 67vh;
+        min-height: 329vh;
     }
     h1{
         font-size: 1.5em;
@@ -416,7 +438,7 @@ text {
     #photo{
         width: 55%;
         left: -72px;
-        margin-top: -158%;
+        margin-top: -89%;
     }
     h3{
         font-size: 1.5em;
@@ -426,53 +448,68 @@ text {
     }
     .desarrollo{
         margin-top: 9%;
-        margin-left: 8%;
+        margin-left: 18%;
     }
     #aboutme{
         width: 100%;
         height: auto;
         text-align: center;
-        margin-top: 28%;
-        left:1%
+        margin-top: 33%;
+        left:11%
 
     }
+    #button-download{
+        width: 43%;
+        height: 48px;
+        top: 410%;
+        left: 139%;
+    }
     #computadora{
-        margin-right: -201%;
+        margin-right: -29%;
     }
     #skills{
         position: relative;
         float: left;
         width: 60%;
         margin-left: 38%;
-        margin-top: -71%;
+        margin-top: -25%;
     }
     .content-desarrollo{
-        margin-top: -31%;
-        width: 85%;
+        margin-top: -15%;
+        width: 59%;
     }
     p{
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .content-proyect-title p{
         font-size: 1.5em;
     }
     .cursos__img{
-        width: 89%;
-        height:250px;
+        width: 63%;
+        height: 277px;
+        margin-left: 15%;
     }
     .cursos__descripcion{
-        width: 43%;
+        width: 27%;
+        margin-left: 15%;
         margin-top: 6%;
-        height: 257px;
-        background: rgba(252, 247, 248,0.3);
+        height: 223px;
+        background: rgba(0, 0, 0,0.4);
+
     }
+    #navbarNav{
+        margin-left: 85%;
+        font-size: 2em;
+    }
+    
     .cursos__columna h2{
         font-size: 1.5em;
-        color:#115571;
+        color:white;
+        margin-left: 24%;
     }
     .cursos__columna p{
         font-size: 1em;
-        color:#115571;
+        color:white ;
     }
     .tolls-proyect{
         margin-top: -9%;
@@ -488,24 +525,29 @@ text {
     .button-card{
         font-size: 1em;
         width: 47%;
-        margin-left: 0%;
+        margin-left: 2%;
         height: 42px;
+        margin-top: 13%;
     }
+    
     h4{
-        font-size: 1.5em;
-        padding-top: 10%;
+        font-size: 2em;
+        padding-top: 7%;
+        margin-left: -9%;
     }
     h5{
-        font-size: 1.3em;
+        font-size: 1.5em;
+        margin-left: -8%;
     }
     footer{
         margin-top: 16%;
+        height: 70vh;
     }
     #content-footer{
-        margin-left: 22%;
+        margin-left: 37%;
     }
     .navbar-toggler{
-        margin-right: 23%
+        margin-right: 5%
     }
     a{
         font-size: 1em;
